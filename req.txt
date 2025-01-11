@@ -1,0 +1,6 @@
+fuzzywuzzy==0.18.0
+phonetics>=1.0.5
+scikit-learn>=1.2.2
+langdetect>=1.0.9
+numpy>=1.24.3
+faiss-cpu>=1.7.3

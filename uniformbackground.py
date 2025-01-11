@@ -23,7 +23,7 @@ class CompleteBackgroundAnalyzer:
     def setup_dl_models(self):
         """Initialize deep learning models and transforms."""
         # Use DeepLabV3+ with ResNet101 backbone for better segmentation
-        from torchvision.models.segmentation import DeepLabV3_ResNet101_Weights
+        from torchvision.models.segmentation import DeepLabV3_ResNet101_Weights #type: ignore
         
         self.segmentation_model = deeplabv3_resnet101(
                 weights=DeepLabV3_ResNet101_Weights.DEFAULT

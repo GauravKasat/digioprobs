@@ -24,6 +24,7 @@ criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
 # Training loop
+num_epochs = 5
 for epoch in range(num_epochs):
     model.train()
     for images, labels in train_loader:
